@@ -14,6 +14,7 @@
 }
 /*elementi del nav*/
 nav{
+    background-color: #ADD8E6;
     padding: 10px;
 }
 
@@ -75,6 +76,7 @@ section{
 }
 
 .small-box{
+    border: dashed black 2px;
     background-color: #EE82EE;
     max-width: 800px;
     padding: 20px;
@@ -118,3 +120,57 @@ section{
 }
 
 /*fine stilizzazione*/
+
+/*footer inizio*/
+
+footer{
+    background-color: #23272A;
+
+    padding: 10px;
+}
+
+footer .conainer > * {
+    border: dashed 4px white;
+}
+
+footer #top-side{
+    margin-bottom: 30px;
+
+}
+
+footer #top-side .footer-links{
+    background-color: #F08080;
+    height: 500px;
+    width: 260px;
+
+}
+
+footer #top-side .colonne {
+    background-color: #20B2AA;
+    border: dashed white 2px;
+
+    flex-grow: 1;
+}
+
+footer #btm{
+
+    margin-top: 16px;
+    background-color: #7FFFD4;
+}
+
+footer #btm {
+    justify-content: space-between;
+    padding: 14px 0;
+
+
+}
+
+footer #btm > * {
+    background-color:#FFB6C1;
+    border: dashed black 3px;
+
+    padding: 4px 10px;
+
+}
+
+/*fine footer*/
