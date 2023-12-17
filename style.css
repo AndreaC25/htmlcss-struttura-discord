@@ -4,3 +4,55 @@
     box-sizing: border-box;
 }
 
+.container{
+  
+    display: flex;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+/*elementi del nav*/
+nav{
+    padding: 10px;
+}
+
+nav .container{
+    display: flex;
+    
+    background-color: #DAA520;
+   
+}
+
+nav .container > * {
+    border: dashed 3px black; 
+    padding: 10px;
+
+}
+
+
+
+.logo{
+    width: 100px;
+    
+
+}
+
+.lista{
+    flex-grow: 1;
+}
+
+.lista ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 10px;
+}
+
+.login{
+    width: 100px;
+    text-align: right;
+   
+
+}
+/*fine elementi nav*/
