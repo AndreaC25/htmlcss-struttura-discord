@@ -56,3 +56,65 @@ nav .container > * {
 
 }
 /*fine elementi nav*/
+
+/*inizio stilizzazione corpo della pagina*/
+
+section{
+    padding: 40px 20px;
+}
+
+#primo{
+    background-color: #00008B;
+   
+}
+
+
+#primo .small-box{
+   
+    height: 300px;
+}
+
+.small-box{
+    background-color: #EE82EE;
+    max-width: 800px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.row{
+    display: flex;
+
+}
+
+.grey{
+    background-color: #D3D3D3;
+}
+
+
+.big-boxes{
+
+    flex-grow: 1;
+    background-color: #1E90FF;
+    height: 400px;
+    border: dashed 2px black;
+}
+
+.small-boxes{
+
+    background-color: #FFC0CB;
+    height: 400px;
+    border: dashed 2px black;
+    width: 400px;
+
+}
+
+.grey .big-boxgreen{
+    border: dashed black 4px;
+    background-color: #228B22;
+    height: 600px;
+    width: 1000px;
+}
+
+/*fine stilizzazione*/
